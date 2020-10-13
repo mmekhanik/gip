@@ -1,0 +1,66 @@
+body {
+  padding-bottom: 0px;
+}
+
+.navbar {
+  margin-bottom: 0px;
+  padding: 0 !important;
+}
+
+.navbar-fnt {
+    font-size: 14px;
+   /* color: #b3b3b3;*/
+    text-transform: uppercase;
+    font-weight: 400; 
+}
+
+.navbar-mnu a {
+  text-decoration: none !important;
+  font-size: 17px;
+  display: inline-block; 
+  font-weight: 700; 
+  color: #00a3f2;
+}
+.navbar-default .navbar-menu > li {
+  display: inline-block;
+  padding: 0px 0px; 
+}
+.navbar-default .navbar-menu > .nav-item > a {
+  padding: 2px 5px;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+  font-size: 14px;
+ 
+
+}
+
+.navbar-default .navbar-menu > li > a:hover, .navbar-default .navbar-menu > li > a:focus {
+  color: #00a3f2 !important;
+}
+
+.navbar-default .navbar-menu > .active > a, .navbar-default .navbar-menu > .active >
+        a:hover, .navbar-default .navbar-menu > .active > a:focus {
+    color: #00a3f2 !important; /*BACKGROUND color for active*/
+}
+
+
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #00a3f2 !important;
+    text-decoration: none;
+    background-color: #66CCFF; /*change color of links in drop down here*/
+}
+
+
+
+/*.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    color: #00a3f2 
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active >
+        a:hover, .navbar-default .navbar-nav > .active > a:focus {
+    color: #00a3f2; */
+    /*background-color: #000;*/
+/*}*/
+

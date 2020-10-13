@@ -1,0 +1,736 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ar",
+				"article"
+			],
+			[
+				"admin",
+				"administrator"
+			],
+			[
+				"al",
+				"albums"
+			],
+			[
+				"req",
+				"request"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"sub",
+				"subject"
+			],
+			[
+				"albu",
+				"album_id"
+			],
+			[
+				"alb",
+				"album"
+			],
+			[
+				"au",
+				"author"
+			],
+			[
+				"a",
+				"authors"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"art",
+				"articles"
+			],
+			[
+				"blog-",
+				"blog-main"
+			],
+			[
+				"th",
+				"thread"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "/Users/Marina/webcontent/laravel-blogger/routes/web.php",
+			"settings":
+			{
+				"buffer_size": 5496,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/frontend/articles/show.blade.php",
+			"settings":
+			{
+				"buffer_size": 6461,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/partials/_disqus.blade.php",
+			"settings":
+			{
+				"buffer_size": 1089,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "resources/views/partials/_share_buttons.blade.php",
+			"settings":
+			{
+				"buffer_size": 4894,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/Marina/webcontent/laravel-blogger/config/services.php",
+			"settings":
+			{
+				"buffer_size": 1464,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/OAuth/OAuthController.php",
+			"settings":
+			{
+				"buffer_size": 896,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Laravel ",
+				"Laravel Artisan 5: Event:Generate"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 136.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/Users/Marina/webcontent/gipirion",
+		"/Users/Marina/webcontent/gipirion/app",
+		"/Users/Marina/webcontent/gipirion/app/Http",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers",
+		"/Users/Marina/webcontent/laravel-blogger",
+		"/Users/Marina/webcontent/laravel-blogger/routes",
+		"/Users/Marina/webcontent/laravel-blogger/vendor",
+		"/Users/Marina/webcontent/laravel-blogger/vendor/doctrine"
+	],
+	"file_history":
+	[
+		"/Users/Marina/webcontent/gipirion/app/Models/Settings.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/SettingController.php",
+		"/Users/Marina/webcontent/gipirion/config/services.php",
+		"/Users/Marina/webcontent/gipirion/.env",
+		"/Users/Marina/webcontent/laravel-blogger/.env",
+		"/Users/Marina/webcontent/gipirion/app/Services/Socializer.php",
+		"/Users/Marina/webcontent/gipirion/vendor/laravel/socialite/src/Facades/Socialite.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/UserController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/PhotoController.php",
+		"/Users/Marina/webcontent/gipirion/resources/js/app.js",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/user/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/TagController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/CategoryController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/user/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/registration/create.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/auth/register.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/auth/register.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/AuthController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/RegistrationRequest.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/dashboard/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/User/UserUpdateRequest.php",
+		"/Users/Marina/webcontent/gipirion/app/Notifications/VerifyMail.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/User/UserCreateRequest.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/layouts/partials/sidebar.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_nav_sidebar.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Mail/WelcomeAgain.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/emails/welcome-again.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_nav_dashboard.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/ProfileController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Profile/ProfileUpdateRequest.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Tag/TagUpdateRequest.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/UserController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Tag/TagCreateRequest.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/categories/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Category/CategoryUpdateRequest.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Category/CategoryCreateRequest.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/tags/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/categories/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/routes/web.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/categories/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/routes/breadcrumbs.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/permissions/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/permissions/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/tags/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/author.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/roles/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/PermissionController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/RoleController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/articles/favourites.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/categories/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/about.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/articles/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/profile/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/ArticleController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Article/ArticleCreateRequest.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/articles/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_articles_single.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Requests/Article/ArticleUpdateRequest.php",
+		"/Users/Marina/webcontent/laravel-blogger/resources/views/partials/_articles_single.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/albums.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/welcome.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/articles/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/articles/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/albums/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/AlbumController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/ContactController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/ServiceController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/services/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/albums/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/photos/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/DashboardController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/photos/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/photos/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/gallery.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_filemanager_scripts_general.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/AlbumController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/albums/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_filemanager_scripts.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_album_manager_scripts.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Album.php",
+		"/Users/Marina/webcontent/gipirion/database/migrations/2020_08_25_220959_add_user_id_to_albums_table.php",
+		"/Users/Marina/webcontent/gipirion/public/js/app.js",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/MediaController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/media/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/vendor/laravel-filemanager/demo.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Handlers/LfmConfigHandler.php",
+		"/Users/Marina/webcontent/gipirion/vendor/unisharp/laravel-filemanager/src/Handlers/ConfigHandler.php",
+		"/Users/Marina/webcontent/gipirion/config/lfm.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/FilemanagerLaravelController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/vendor/laravel-filemanager/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/dashboard/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/avatar/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/public/vendor/laravel-filemanager/js/script.js",
+		"/Users/Marina/webcontent/laravel-blogger/app/Http/Controllers/FilemanagerLaravelController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/albums/edit_old.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/layouts/masterblog.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/layouts/backend.blade.php",
+		"/Users/Marina/webcontent/gipirion/config/blogger.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/services/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/contacts/edit.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Frontend/HomepageController.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/FrontendController.php",
+		"/Users/Marina/webcontent/gipirion/app/Notifications/ContactUsFormNotification.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/contact.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/layouts/nav.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Notifications/ContactFormNotification.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/services/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/contacts/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/contacts/show.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/Backend/SettingsController.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/layouts/frontend.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_nav_top.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_nav_albums.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_nav_top_albums.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/layouts/master.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/layouts/mastertest.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/layouts/app.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/frontend/aboutus.blade.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/partials/_home_carusel.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Helpers/helpers.php",
+		"/Users/Marina/webcontent/gipirion/app/Service.php",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/articles/index.blade.php",
+		"/Users/Marina/webcontent/gipirion/app/Http/Controllers/HomeController.php",
+		"/Users/Marina/webcontent/gipirion/node_modules/aws4/README.md",
+		"/Users/Marina/webcontent/gipirion/database/migrations/2020_07_28_201948_create_articles_table.php",
+		"/Users/Marina/webcontent/gipirion/database/migrations/2020_08_20_200308_add_subtitle_and_level_and_is_published_and_published_at_to_services.php",
+		"/Users/Marina/webcontent/gipirion/node_modules/ansi-escapes/index.js",
+		"/Users/Marina/webcontent/gipirion/resources/views/backend/roles/index.blade.php"
+	],
+	"find":
+	{
+		"height": 44.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getDisqusShortname",
+			"regist",
+			"resgisterStore",
+			"VerifyMail",
+			"createSlug",
+			"article-title",
+			"lfm2",
+			"multipl",
+			"performLfmRequest",
+			"working_dir",
+			"Current working_dir",
+			"route_prefix",
+			"options",
+			"helper",
+			"filem",
+			"album-pick-image",
+			"route_prefix",
+			"ContactFormNotification",
+			"contact",
+			"lightGallery()",
+			"style.j",
+			"style",
+			"click()",
+			"click",
+			"dropdown",
+			"app.css",
+			"app.js",
+			"albums",
+			"hidden",
+			"method",
+			"route_prefix",
+			"urlobj",
+			"contact",
+			"album-table",
+			"create",
+			"90",
+			"article-",
+			"article-list-search",
+			"article-table-list",
+			"backe",
+			"subscription",
+			"subscribe",
+			".brand-teal",
+			"toggle",
+			"article-table-list",
+			"about",
+			"count(",
+			"fans",
+			"article",
+			"import",
+			"data-id",
+			"fuzzySearch",
+			"autocom",
+			"\"query",
+			"'query",
+			"(query",
+			"xhrSuccessStatus",
+			"search",
+			"ajax",
+			"autocomplete",
+			"search",
+			"app.js",
+			"og-title",
+			"published",
+			"'indices'",
+			"mapping",
+			"Parsedown",
+			"excluded_ips",
+			"ClientBuilder",
+			"scout_driver",
+			"field_name",
+			"lfm",
+			"setUrl(",
+			"setUrl",
+			"filemanager",
+			"SetUrl",
+			"route_prefix",
+			"richfilemanager",
+			"filemanager-laravel",
+			"filemanager/show",
+			"article-image-path",
+			"article-pick-image",
+			"password",
+			"linked_in_name",
+			"images/avatars",
+			"location",
+			"photon_thumbnail",
+			"avatar-form",
+			"pagi",
+			"tag-table-list",
+			"pagin",
+			"tag-table-list",
+			"pagin",
+			"tagTableList",
+			"topPaginationOptions",
+			"tag-table-list",
+			"accordion",
+			"ignored",
+			"accordion",
+			"accordia",
+			"accordio",
+			"backend/app",
+			".accordion(",
+			"tagTableList",
+			"tag-table-list",
+			"bottomPaginationOptions",
+			"bottom-list-pagination",
+			"list.js",
+			"/libs/list.pagination",
+			"tag-table-list",
+			"paginat",
+			".list-pagination",
+			"pagin",
+			"list-pagination",
+			"list-pa",
+			"pagi",
+			" list.pagination.js",
+			"list.pagination.js",
+			"list-pagination",
+			"bottom-list-pagination",
+			"method_field",
+			"avatar",
+			"-form",
+			"avatar-form",
+			"redirect",
+			"articles.index",
+			"dashboard",
+			"back-to-admin-mode"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"00a3f2",
+			"#3d5670"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "/Users/Marina/webcontent/laravel-blogger/routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4772,
+								4774
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2610.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "resources/views/frontend/articles/show.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6461,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4676,
+								4676
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2886.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "resources/views/partials/_disqus.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1089,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								770,
+								788
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/partials/_share_buttons.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4894,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								693,
+								693
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2080.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "/Users/Marina/webcontent/laravel-blogger/config/services.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1464,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1459,
+								978
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 677.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "app/Http/Controllers/OAuth/OAuthController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 896,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 145.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 32.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 144.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.unsaved_changes":
+	{
+		"height": 144.0
+	},
+	"pinned_build_system": "",
+	"project": "gipirion.sublime-project",
+	"replace":
+	{
+		"height": 60.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 311.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
