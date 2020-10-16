@@ -38,7 +38,7 @@
       window.Blogger = {
           url : url
       }
-      console.log(window.Blogger);
+      // console.log(window.Blogger);
   </script>
  <!--  <script src="{{ url('js/app.js') }}" ></script> -->
     <style>

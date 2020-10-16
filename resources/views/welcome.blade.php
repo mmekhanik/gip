@@ -10,7 +10,6 @@
     max-height: 200px;
     margin: 0 auto;
   </style>
-}
 @stop
 @section('nav_top')
     @include('partials._home_carusel')    
