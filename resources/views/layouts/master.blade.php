@@ -34,8 +34,9 @@
 
   <!-- Scripts -->
   <script>
+      var url = {!! json_encode(config("app.url")) !!};
       window.Blogger = {
-          url : "http://gipirion.local"
+          url : url
       }
       console.log(window.Blogger);
   </script>

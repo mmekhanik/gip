@@ -56,6 +56,7 @@ class PhotoController extends Controller
         // $data["albums"] = Album::all();
         $data['sorted_albums'] = Album::orderBy('name')->get();
         $data['album_id'] = $album_id;
+        //dd($data);
         return view('backend.photos.edit',$data);
     }
 

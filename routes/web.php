@@ -176,7 +176,7 @@ Route::get('findtest/{age}',function($age){
     $result = $client->search($params);                 //Using Search function
 return($result);                                    //Printing out result
 });
-Route::group(['prefix' => 'filemanager', 'middleware' => 'role:superadministrator|administrator'], function () {
+Route::group(['prefix' => 'filemanager', 'middleware' => 'role:superadministrator|administrator|user'], function () {
      \UniSharp\LaravelFilemanager\Lfm::routes();
     Route::get('show', 'FilemanagerLaravelController@getShow');
    //  Route::post('laravel-filemanager/upload', '\Unisharp\Laravelfilemanager\controllers\UploadController@upload');
@@ -228,7 +228,7 @@ Route::group(['middleware' => ['auth'], 'prefix' => 'dashboard'], function () {
     });
 
     //admin and editor
-    Route::group(['middleware' => 'role:superadministrator|administrator'], function () {
+    Route::group(['middleware' => 'role:superadministrator|administrator|user'], function () {
         Route::resource('categories', 'Backend\CategoryController');
         Route::resource('tags', 'Backend\TagController');
         Route::resource('articles', 'Backend\ArticleController');

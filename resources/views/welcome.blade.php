@@ -33,7 +33,7 @@
               <title>Placeholder</title>
               <rect width="100%" height="100%" fill="#3d5670">    
               </rect>
-              <image width="140px" height="190px" href="{{ (!empty($article->article_image))? url(photo_thumbnail($article->article_image,config('blogger.filemanager.upload_path'))) : url('images/placeholder_640x480.png')}}" />
+              <image width="140px" height="140px" href="{{ (!empty($article->article_image))? url(photo_thumbnail($article->article_image,config('blogger.filemanager.upload_path'))) : url('images/placeholder_640x480.png')}}" />
             </svg>
           <h2>{{ str_limit($article->title, $limit = 50, $end = '...') }}</h2>
           <p>{{'Author: '.$article->author_name . ' at '. $article->created_at->format('d M Y')}}</p>

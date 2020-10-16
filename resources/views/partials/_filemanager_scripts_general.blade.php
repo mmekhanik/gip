@@ -21,7 +21,7 @@
 
      function OpenServerBrowser( url, width, height )
      {
-          
+          console.log(url);
           var iLeft = (screen.width - width) / 2 ;
           var iTop = (screen.height - height) / 2 ;
           var sOptions = "toolbar=no,status=no,resizable=yes,dependent=yes" ;
@@ -84,7 +84,7 @@
       return false;
      });
       $('#photo-pick-image').click(function(){
-        //console.log('photo');
+        //console.log(pathAbsolute);
         BrowseServer('photo');
       return false;
      });

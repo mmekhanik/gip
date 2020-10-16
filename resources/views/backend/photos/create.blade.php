@@ -40,11 +40,11 @@
                 </div>
             
                 <div class="form-group bg-white p-3">
-                        <label for="album">Album</label>
+                        <label for="album">Album2</label>
                         <select name="album_id" class="form-control">
                             @if (count($albums)>0)
                                 @foreach($albums as $album)
-                        <option value="{{ $album->id }}">{{ $album->name }}</option>
+                        <option value="{{ $album->id }}"  {{ (empty($album_id) && $album->id ==$album_id) ? 'selected' : '' }}>{{ $album->name }}</option>
                                 @endforeach
                             @endif
                         </select>

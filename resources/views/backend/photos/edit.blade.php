@@ -24,7 +24,7 @@
   <form class="ui form" method="POST" action="{{url('dashboard/photos/'.$photo->id) }}">
   {{method_field('PUT')}}
   @else
-  <h2>Create an Album</h2>
+  <h2>Create Photo</h2>
   <form class="ui form" method="POST" action="{{url('dashboard/photos')}}">
 
   @endif
@@ -45,7 +45,7 @@
       <option value="">Album</option>
       @if(isset($sorted_albums))
         @foreach($sorted_albums as $album)
-          @if((!empty($photo) && $photo->album_id == $album->id) || old('album_id') == $album->id)
+          @if((!empty($photo) && $photo->album_id == $album->id) || old('album_id') == $album->id || (!empty($album_id) && $album_id == $album->id))
                 <option value="{{ $album->id }}" selected>{{$album->name}} </option>
           @else
                 <option value="{{ $album->id }}">{{$album->name}} </option>

@@ -64,16 +64,17 @@
 
     </style>
 
-
+1
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
     <!-- Scripts -->
     <script>
+        var url = {!! json_encode(config("app.url")) !!};
         window.Blogger = {
-            url : "http://gipirion.local"
+            url : url
         }
-        // console.log(window.Blogger);
+         // console.log(window.Blogger);
     </script>
     
     <!-- Styles -->

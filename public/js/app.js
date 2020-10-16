@@ -45767,8 +45767,8 @@ var __WEBPACK_AMD_DEFINE_RESULT__;function _typeof(obj) { "@babel/helpers - type
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/Marina/webcontent/gipirion/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /Users/Marina/webcontent/gipirion/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! E:\xampp\htdocs\gipirion\resources\js\app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! E:\xampp\htdocs\gipirion\resources\sass\app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
