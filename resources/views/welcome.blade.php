@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Giprioin Inc.')
+@section('title', 'Gipirion Inc')
 
 @section('styles')
     <link href="/css/lightbox.css" rel="stylesheet">

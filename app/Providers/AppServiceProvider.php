@@ -10,7 +10,7 @@ use Illuminate\Support\Facades\Blade;
 use Illuminate\Support\Facades\URL;
 use App\Repositories\Interfaces\ArticlesRepositoryInterface;
 use App\Repositories\ArticlesRepository;
-
+use Illuminate\Routing\UrlGenerator;
 use App\Repositories\ElasticsearchRepository;
 
 class AppServiceProvider extends ServiceProvider
@@ -88,7 +88,7 @@ class AppServiceProvider extends ServiceProvider
         });
 
  
-        if(config('app.env') === 'production') {
+        if(config('app.env') !== 'local') {
             URL::forceScheme('https');
         }
 
