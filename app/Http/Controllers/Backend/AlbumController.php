@@ -166,6 +166,7 @@ class AlbumController extends Controller
     {
         //dd('delete');
         $album = Album::findOrFail($id);
+        $album->gallery()->delete();
         $album->delete();
         return redirect('/dashboard/albums')->with('status','Album deleted successfully');
     }

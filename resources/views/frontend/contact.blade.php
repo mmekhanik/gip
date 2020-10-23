@@ -15,7 +15,7 @@
               <div class="row">
                 <div class="col-lg-8 mb-5">
                   {{ photon_notification($errors)}}
-                <form action="{{ route('contactacl') }}" method="post">
+                <form action="{{ route('contactmail') }}" method="post">
                    @csrf
     
                     <div class="row form-group">

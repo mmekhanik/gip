@@ -78,7 +78,7 @@ return [
     | Defines admin email for contact form notifications
     |
      */
-    'admin_email' => 'marina_mekhanik@yahoo.com',
+    'admin_email' => 'gipirioninfo@gmail.com',
 
     /*
     |--------------------------------------------------------------------------

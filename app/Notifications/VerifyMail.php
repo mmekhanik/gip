@@ -43,7 +43,7 @@ class VerifyMail extends Notification
     {
         // dd($this->user);
         return (new MailMessage)
-                    ->subject(setting('site_title')." Verify Mail")
+                    ->subject(setting('meta_title')." Verify Mail")
                     ->greeting(sprintf('Hello , %s',$this->user->name))
                     ->line('Your registration have been successfull , now verify your account from below link.')
                     ->action('Verify Now', url(route('verify',$this->user->email_verification_token)))

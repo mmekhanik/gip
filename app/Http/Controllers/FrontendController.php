@@ -64,7 +64,7 @@ class FrontendController extends Controller
     }
 
     public function contactForm(Request $request){
-        
+      
         $validator = Validator::make($request->all(),[
             'fname' => 'required',
             'lname' => 'required',
@@ -75,13 +75,13 @@ class FrontendController extends Controller
         if($validator->fails()){
             return redirect()->back()->withErrors($validator);
         }
-            
+        //  dd( config('blogger.admin_email'));  
         $admin = User::where('email', config('blogger.admin_email'))->firstOrFail();
         //dd($admin);
 
         $admin->notify(new ContactUsFormNotification($request));
         
-        // Mail::to('mmekhanik@gmail.com')->send(new ContactForm($request->all()));
+        // Mail::to('gipirioninfo@gmail.com')->send(new ContactForm($request->all()));
               
         session()->flash("type","success");
         session()->flash("message","Mail Send Successfully");

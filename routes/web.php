@@ -131,7 +131,7 @@ Route::get('/homepage', 'FrontendController@home')->name('homepage');
 Route::get('/gallery/{slug}', 'FrontendController@gallery')->name('gallery');
 Route::get('/aboutus', 'FrontendController@about')->name('about');
 Route::get('/contactacl', 'FrontendController@contact')->name('contactacl');
-Route::post('/contactacl', 'FrontendController@contactForm');
+Route::post('/contactacl', 'FrontendController@contactForm')->name('contactmail');
 Route::get('/service', 'FrontendController@service')->name('service');
 
 Route::get('/mail', function(){
