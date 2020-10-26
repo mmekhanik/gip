@@ -61,7 +61,7 @@
 		</div>
 		<div class="column">
 			<div class="ui menu text vertical">
-				<div class="header item">Albums Summary</div>
+				<div class="header item">Gallery Summary</div>
 				@if(Auth::user()->hasRole('superadministrator'))
 		    	 <a href="{{ url('dashboard/albums')}}" class="item"><i class="camera retro icon"></i> {{$dashboard['number_of_albums']}} albums</a>
 		    	@endif

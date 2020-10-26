@@ -1,6 +1,6 @@
 @extends('layouts.frontend')
 
-@section('title', 'Albums'.$name)
+@section('title', 'Gallery'.$name)
 
 @section('styles')
     <!-- Custom styles for this template -->

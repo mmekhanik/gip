@@ -22,13 +22,13 @@
         </div>
       </li> -->
        <li class="nav-item">
-        <a class="nav-link" href="/albums">Albums</a>
+        <a class="nav-link" href="/albums">Gallery</a>
       </li>
      <!--  <li class="nav-item  ">
         <a class="nav-link" href="{{ route('service') }}">Services</a>
       </li> -->
       <li class="nav-item ">
-        <a class="nav-link" href="{{ url('about') }}">About</a>
+        <a class="nav-link" href="{{ url('about') }}">About Us</a>
       </li>
        <li class="nav-item ">
         <a class="nav-link" href="{{ route('contactacl') }}">Contact</a>
