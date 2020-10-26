@@ -50,7 +50,7 @@
 			    			@if(Auth::user()->id !== $user->id)
 			    				<a href="{{url('dashboard/impersonate/'.$user->id)}}" id="impersonate-user-{{$user->id}}" class="ui mini button "><i class="icon spy"></i> Login</a>
 			    			@endif
-			    			@if(!$user->hasRole('user'))
+			    			@if(Auth::user()->hasRole('superadministrator|administrator'))
 			    			<form class="form-inline form-delete-user" method="POST" action="/dashboard/users/{{$user->id}}">
 			    				{{csrf_field()}}
 			    				 <input name="_method" type="hidden" value="DELETE">

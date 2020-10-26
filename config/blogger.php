@@ -142,7 +142,7 @@ return [
         ],
 
     ],
-    'github_repository' => '#',
-    'url' =>'http://127.0.0.1:8000',
+    'github_repository' => 'gip',
+    'url' =>'https://github.com/mmekhanik/gip',
 
 ];

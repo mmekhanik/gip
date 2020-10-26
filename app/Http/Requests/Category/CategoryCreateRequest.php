@@ -16,7 +16,7 @@ class CategoryCreateRequest extends FormRequest
      */
     public function authorize()
     {
-        return Auth::user()->hasRole('superadministrator|administrator');
+        return Auth::user()->hasRole('superadministrator|administrator|user');
     }
 
     /**
